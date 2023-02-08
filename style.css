@@ -375,8 +375,14 @@
   width: 500px;
   border-radius: 4px;
   display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   color: #fff;
   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+.fa-layer-group,
+.fa-users {
+  font-size: 14rem;
 }
