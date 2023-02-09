@@ -638,7 +638,7 @@
 }
 
 .footer__link--items a:hover {
-  color: purple;
+  color: rgb(255, 0, 255);
   transition: 0.2s ease-out;
 }
 
@@ -676,6 +676,7 @@
   .footer__links {
     padding-top: 2rem;
   }
+
   #footer__logo {
     margin-bottom: 2rem;
   }
