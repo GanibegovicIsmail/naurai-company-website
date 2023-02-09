@@ -567,7 +567,7 @@
 }
 
 .services__card:hover {
-  transform: scale(1.75);
+  transform: scale(1.075);
   transition: 0.3s ease-in;
   cursor: pointer;
 }
@@ -583,3 +583,5 @@
     grid-template-columns: 1fr;
   }
 }
+
+/*Footer*/
