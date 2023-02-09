@@ -186,7 +186,7 @@
 .hero {
   background: #000000;
   background: linear-gradient(to right, #161616, #000000);
-  padding: 200px;
+  padding: 200px 200px 330px 200px;
 }
 
 .hero__container {
@@ -676,7 +676,6 @@
   .footer__links {
     padding-top: 2rem;
   }
-
   #footer__logo {
     margin-bottom: 2rem;
   }
