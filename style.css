@@ -186,7 +186,7 @@
 .hero {
   background: #000000;
   background: linear-gradient(to right, #161616, #000000);
-  padding: 200px 200px 330px 200px;
+  padding: 200px 200px 320px 200px;
 }
 
 .hero__container {
@@ -435,7 +435,7 @@
   }
 }
 
-@media screen and(max-width: 480px) {
+@media screen and(max-width: 420px) {
   .main__img--card {
     width: 250px;
     height: 250px;
