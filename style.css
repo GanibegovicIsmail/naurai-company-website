@@ -20,13 +20,26 @@
 
 .navbar__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 80px;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 50px;
+}
+
+#navbar__logo--img {
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  scale: 70%;
 }
 
 #navbar__logo {
@@ -127,8 +140,12 @@
     font-size: 1.6rem;
   }
 
-  #navbar__logo {
+  #navbar__logo--img {
     padding-left: 25px;
+  }
+
+  #navbar__logo {
+    display: none;
   }
   .navbar__toggle .bar {
     width: 25px;
