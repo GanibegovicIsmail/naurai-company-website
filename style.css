@@ -1,3 +1,22 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #252525;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333e5e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b8877e;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,7 +26,7 @@
 }
 
 .navbar {
-  background: #131313;
+  background: #0d1730;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -16,6 +35,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  opacity: 70%;
 }
 
 .navbar__container {
