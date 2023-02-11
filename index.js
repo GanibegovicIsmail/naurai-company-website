@@ -58,3 +58,20 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener("click", hideMobileMenu);
 navLogo.addEventListener("click", hideMobileMenu);
+
+let initialX = 0;
+let initialY = 0;
+
+document.addEventListener("mousemove", (event) => {
+  if (initialX === 0) {
+    initialX = event.clientX;
+  }
+  if (initialY === 0) {
+    initialY = event.clientY;
+  }
+  const xDiff = event.clientX - initialX;
+  const yDiff = event.clientY - initialY;
+  initialX = event.clientX;
+  initialY = event.clientY;
+  document.body.style.backgroundPosition = `${xDiff}px ${yDiff}px`;
+});

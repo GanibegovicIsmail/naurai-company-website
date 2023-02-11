@@ -24,6 +24,12 @@
   font-family: "Kumbh Sans", sans-serif;
   scroll-behavior: smooth;
 }
+body {
+  background-image: url("images/background.png");
+  background-size: auto;
+  background-position: auto center;
+  transition: background-position 0.1s linear;
+}
 
 .navbar {
   background: #0d1730;
@@ -216,7 +222,7 @@
 /*  Hero Section  */
 
 .hero {
-  background-image: url("images/background.png");
+  /* background-image: url("images/background.png"); */
   padding: 200px 200px 320px 200px;
 }
 
