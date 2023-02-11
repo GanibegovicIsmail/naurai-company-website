@@ -26,9 +26,13 @@
 }
 body {
   background-image: url("images/background.png");
-  background-size: auto;
-  background-position: auto center;
-  transition: background-position 0.1s linear;
+  background-position: center;
+  background-size: 120%;
+  transition: all 0.15s ease-in-out;
+}
+
+body:hover {
+  background-size: 120%;
 }
 
 .navbar {

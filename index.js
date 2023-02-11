@@ -69,9 +69,9 @@ document.addEventListener("mousemove", (event) => {
   if (initialY === 0) {
     initialY = event.clientY;
   }
-  const xDiff = event.clientX - initialX;
-  const yDiff = event.clientY - initialY;
+  const xDiff = (event.clientX - initialX) / 2;
+  const yDiff = (event.clientY - initialY) / 2;
   initialX = event.clientX;
   initialY = event.clientY;
-  document.body.style.backgroundPosition = `${xDiff}px ${yDiff}px`;
+  document.body.style.backgroundPosition = `${-xDiff}px ${-yDiff}px`;
 });
