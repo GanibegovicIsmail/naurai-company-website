@@ -59,19 +59,20 @@ const hideMobileMenu = () => {
 menuLinks.addEventListener("click", hideMobileMenu);
 navLogo.addEventListener("click", hideMobileMenu);
 
-let initialX = 0;
-let initialY = 0;
+//mby Leave the featuer
+// let initialX = 0;
+// let initialY = 0;
 
-document.addEventListener("mousemove", (event) => {
-  if (initialX === 0) {
-    initialX = event.clientX;
-  }
-  if (initialY === 0) {
-    initialY = event.clientY;
-  }
-  const xDiff = (event.clientX - initialX) / 2;
-  const yDiff = (event.clientY - initialY) / 2;
-  initialX = event.clientX;
-  initialY = event.clientY;
-  document.body.style.backgroundPosition = `${-xDiff}px ${-yDiff}px`;
-});
+// document.addEventListener("mousemove", (event) => {
+//   if (initialX === 0) {
+//     initialX = event.clientX;
+//   }
+//   if (initialY === 0) {
+//     initialY = event.clientY;
+//   }
+//   const xDiff = (event.clientX - initialX) / 2;
+//   const yDiff = (event.clientY - initialY) / 2;
+//   initialX = event.clientX;
+//   initialY = event.clientY;
+//   document.body.style.backgroundPosition = `${-xDiff}px ${-yDiff}px`;
+// });
