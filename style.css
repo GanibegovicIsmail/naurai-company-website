@@ -24,13 +24,6 @@
   font-family: "Kumbh Sans", sans-serif;
   scroll-behavior: smooth;
 }
-body {
-  background-image: url("images/background.png");
-  background-position: auto center;
-  transition: all 2s ease-out;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
 
 .navbar {
   background: #0d1730;
@@ -223,7 +216,7 @@ body {
 /*  Hero Section  */
 
 .hero {
-  /* background-image: url("images/background.png"); */
+  background-image: url("images/background.png");
   padding: 200px 200px 320px 200px;
 }
 
@@ -303,7 +296,7 @@ body {
 
 /*About*/
 .main {
-  background-color: #252525;
+  background-color: #333e5e;
   padding: 10rem 0;
 }
 
@@ -369,12 +362,12 @@ body {
   background: #333e5e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #333e5e,
+    #b8877e,
     #b8877e
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #333e5e,
+    #b8877e,
     #b8877e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -517,7 +510,7 @@ body {
 
 /*Services*/
 .services {
-  background: #252525;
+  background: #333e5e;
   display: flex;
   flex-direction: column;
   justify-content: center;
