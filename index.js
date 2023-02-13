@@ -75,4 +75,5 @@ navLogo.addEventListener("click", hideMobileMenu);
 //   initialX = event.clientX;
 //   initialY = event.clientY;
 //   document.body.style.backgroundPosition = `${-xDiff}px ${-yDiff}px`;
+//random comment
 // });
