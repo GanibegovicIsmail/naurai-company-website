@@ -544,7 +544,7 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: linear-gradient(to right, #00dbde 0%, #dc00ff 100%);
+  background-image: linear-gradient(to right, #b8877e 0%, #b8877e 100%);
   transition: 0.3s ease-in;
 }
 
@@ -552,30 +552,26 @@
   background: #1fa2ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #a6ffcb,
-    #12d8fa,
-    #1fa2ff
+    #b8877e 0%,
+    #b8877e 100%
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #a6ffcb,
-    #12d8fa,
-    #1fa2ff
+    #b8877e 0%,
+    #b8877e 100%
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .services__card:nth-child(4) {
   background: #1fa2ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #a6ffcb,
-    #12d8fa,
-    #1fa2ff
+    #b8877e 0%,
+    #b8877e 100%
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #a6ffcb,
-    #12d8fa,
-    #1fa2ff
+    #b8877e 0%,
+    #b8877e 100%
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
