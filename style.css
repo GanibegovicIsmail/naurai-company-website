@@ -119,8 +119,14 @@
   color: #fff;
   transition: all 0.3s ease;
 }
-.navbar__links:hover {
+
+.button:hover {
   color: #80a9b9;
+  transition: all 0.3s ease;
+}
+
+.navbar__links:hover {
+  background-color: #80a9b9;
   transition: all 0.3s ease;
 }
 
@@ -626,4 +632,11 @@
   color: white;
   display: contents;
   word-spacing: 40%;
+}
+
+.social__media--text {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-size-adjust: 100px;
 }
